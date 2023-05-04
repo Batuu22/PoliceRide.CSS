@@ -1,0 +1,46 @@
+<html>
+<head>
+<title>PoliceRide</title>
+<style type="text/css">
+.car{width:500px; height: 244px; margin:200px auto; padding: 0 0 0 20px}
+.alertlight{width:55px; height:27px; margin:0 auto;}
+.bluelight{width:27.5; height: 27px; background:#00f; border-radius: 10px 0 0 0; float: left;}
+.redlight{width:27.5; height: 27px; background:#f00;  border-radius: 0 10px 0 0; float: left;}
+.leftwindow{width:180px; height: 70px; background:#ddd; border-radius: 50px 0 0 0; margin: 0 0 0 69px; float: left; border-top:1px solid #bebebe; border-left:1px solid #bebebe; border-right:1px solid #bebebe;}
+.rightwindow{width:180px; height: 70px; background:#ddd; border-radius: 0 50px 0 0; float: left; border-top:1px solid #bebebe; border-left:1px solid #bebebe; border-right:1px solid #bebebe; }
+.backlight{width:5px; height:45px; background:#a40000; clear:both; float:left; margin: 32px 0 0 3px; border-right: 2px solid #000; }
+.lefttorso{width:182px; height:70px; float:left; background: #00f; border-radius: 25px 0 0 20px; border-right: 1px solid #000; padding:40px 0 0 58px ;} 
+.righttorso{width:230px; height:70px; float:left; background: #00f; border-radius: 0 25px 20px 0; padding:40px 0 0 10px;}
+.headlights{width:5px; height:45px; float:left; background:rgb(249, 249, 81); border-top: 1px solid rgb(245, 209, 6); border-right: 1px solid rgb(245, 209, 6); border-bottom: 1px solid rgb(245, 209, 6); border-radius: 0 7px 6px 0; margin:32px 0 0 0; box-shadow:2px 0 1px rgb(249, 249, 81);}
+.exhaust{width:20px; height:7px; background: #000; border-top: 1px solid #908f8f; float:left; margin: -29px 0 0 -10px;}
+.leftire{width:48px; height:48px; background:#ddd; border-radius:35px; border:7px solid #000; float:left; margin: -25px 0 0 70px;}
+.rightire{width:48px; height:48px; background:#ddd; border-radius:35px; border:7px solid #000; float:left; margin: -25px 0 0 240px;}
+.handle{width:17px; height:5px; background: #000;}
+.leftorsowriting{width:75px; height:48px; background: #00f; text-align: right; color: #fff; font:bold 40px tahoma; margin: 13px 0 0 99px; padding:0 7px 0 0; }
+.rightorsowriting{width:65px; height:48px; background: #00f; text-align: right; color: #fff; font:bold 40px tahoma; margin: 13px 0 0 -8px; padding: 0 10px 0 0; }
+</style>
+</head>
+<body>
+ <div class="car">
+ <div class="alertlight">
+ <div class="bluelight"></div>
+ <div class="redlight"></div>   
+ </div>
+ <div class="leftwindow"> </div>
+ <div class="rightwindow"></div>
+ <div class="backlight"></div>
+ <div class="lefttorso">
+ <div class="handle"></div>
+ <div class="leftorsowriting">POL</div>
+ </div>
+ <div class="righttorso">
+ <div class="handle"></div>
+ <div class="rightorsowriting">ICE</div>   
+ </div>
+ <div class="headlights"></div>
+ <div class="exhaust"></div>
+ <div class="leftire"></div>
+ <div class="rightire"></div>   
+ </div>   
+</body>    
+</html>
